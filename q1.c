@@ -65,7 +65,6 @@ int main() {
     double execution_times[9];
     struct timeval t1, t2;
     int number_of_threads[]={1,2,4,6,8,10,12,14,16};
-    char *datafile="AzeezBhai.csv";
     fp = fopen(datafile, "w");
     fprintf(fp, "Number of threads,Execution time\n");
     
